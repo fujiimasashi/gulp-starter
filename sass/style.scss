@@ -1,0 +1,13 @@
+h1 {
+    color: black;
+    transition: 200ms ease-out transform;
+    &:hover {
+        color: blue;
+        transform: translate(10px,0);
+  }
+}
+
+h2 {
+  color: #000;
+  display: block;
+}
